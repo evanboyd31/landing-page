@@ -103,8 +103,10 @@ a:active {
 }
 
 .info-image {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
 }
 
 .information {
@@ -127,4 +129,5 @@ a:active {
 
 .info-images-text {
     display: flex;
+    gap: 40px;
 }
