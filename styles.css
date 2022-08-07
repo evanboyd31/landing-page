@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    border: 0px;
+    padding: 16px;
+}
+
+a:link {
+    text-decoration: none;
+    color: grey;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.header {
+    background-color: navy;
+    margin: 0px;
+    padding: 16px;
+    display: flex;
+    margin-bottom: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links {
+    margin-left: auto;
+    gap: 20px;
+}
