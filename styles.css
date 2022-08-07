@@ -65,6 +65,7 @@ a:active {
     width: 400px;
     padding: 0px;
     border: 0px;
+    margin-bottom: auto;
 }
 
 .hero-secondary-text {
@@ -99,4 +100,9 @@ a:active {
 .hero-image {
     height: 250px;
     width: auto;
+}
+
+.info-image {
+    width: 200px;
+    height: 200px;
 }
