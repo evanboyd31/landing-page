@@ -53,9 +53,9 @@ a:active {
     background-color: #1F2937;
     flex: none;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     gap: 48px;
-    padding: 8px;
+    padding: 16px;
 }
 
 .hero-main-text {
@@ -74,7 +74,7 @@ a:active {
     width: 400px;
 }
 
-.sign-up-button {
+.donate-button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
@@ -88,6 +88,7 @@ a:active {
 .sign-up-button:hover {
     cursor: pointer;
     opacity: 0.75;
+    transform: 0.15s;
 }
 
 .hero-content {
@@ -98,7 +99,7 @@ a:active {
 }
 
 .hero-image {
-    height: 250px;
+    height: 225px;
     width: auto;
 }
 
@@ -131,4 +132,13 @@ a:active {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+}
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
