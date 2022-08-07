@@ -54,14 +54,17 @@ a:active {
     flex: none;
     justify-content: center;
     align-items: center;
+    gap: 48px;
+    padding: 8px;
 }
 
 .hero-main-text {
-    font-size: 48px;
+    font-size: 47px;
     color: #F9FAF8;
     font-weight: bold;
     width: 400px;
     padding: 0px;
+    border: 0px;
 }
 
 .hero-secondary-text {
@@ -89,7 +92,11 @@ a:active {
 .hero-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: flex-start;
+}
 
+.hero-image {
+    height: 250px;
+    width: auto;
 }
