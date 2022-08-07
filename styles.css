@@ -106,3 +106,12 @@ a:active {
     width: 200px;
     height: 200px;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-images-text {
+    display: flex;
+}
