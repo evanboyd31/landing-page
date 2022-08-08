@@ -85,7 +85,7 @@ a:active {
     border-radius: 4px;
 }
 
-.donate-button:hover {
+button:hover {
     cursor: pointer;
     opacity: 0.75;
     transform: 0.15s;
