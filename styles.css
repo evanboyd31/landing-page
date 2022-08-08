@@ -63,16 +63,12 @@ a:active {
     font-size: 47px;
     color: #F9FAF8;
     font-weight: bold;
-    width: 400px;
-    padding: 0px;
-    border: 0px;
     margin-bottom: auto;
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
-    width: 400px;
 }
 
 .donate-button {
@@ -96,6 +92,7 @@ button:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 400px;
 }
 
 .hero-image {
@@ -147,20 +144,7 @@ img {
     align-items: center;
     justify-content: flex-start;
     margin: 30px 0px;
-}
-
-.quote-text {
-    font-size: 36px;
-    font-style: italic;
     color: #363131;
-    padding: 0px;
-}
-
-.quote-author {
-    font-size: 28px;
-    font-weight: bold;
-    color: #363131;
-    padding: 0px;
 }
 
 .sign-up {
@@ -195,5 +179,4 @@ img {
     color: #F9FAF8;
     background-color: #363131;
     margin: 30px 0px 0px 0px;
-
 }
